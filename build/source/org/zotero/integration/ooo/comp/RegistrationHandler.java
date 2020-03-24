@@ -68,7 +68,7 @@ public class RegistrationHandler {
 	 *  
 	 * @return the factory which can create the implementation.
 	 */
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({"unchecked", "rawtypes"})
 	public static XSingleComponentFactory __getComponentFactory(String sImplementationName ) {
 		XSingleComponentFactory xFactory = null;
 	
@@ -106,7 +106,7 @@ public class RegistrationHandler {
 	 * @return <code>true</code> if the informations have been successfully written
 	 *	  to the registry key, <code>false</code> otherwise.
 	 */
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({"unchecked", "rawtypes"})
 	public static boolean __writeRegistryServiceInfo(XRegistryKey xRegistryKey ) {
 		Class[] classes = findServicesImplementationClasses();
 		
@@ -131,7 +131,7 @@ public class RegistrationHandler {
 	/**
 	 * @return all the UNO implementation classes. 
 	 */
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({"unchecked", "rawtypes"})
 	private static Class[] findServicesImplementationClasses() {
 		ArrayList<Class> classes = new ArrayList<Class>();
 		
