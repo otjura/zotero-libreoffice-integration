@@ -4,11 +4,11 @@ Zotero LibreOffice Integration comprises extensions for LibreOffice/OpenOffice.o
 
 ## Build Requirements
 
-- [Eclipse](https://www.eclipse.org/downloads/?)
-- [LibreOffice 5.3+](http://www.libreoffice.org/download/download/)
-- [Oracle JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html) (currently 1.8.0u121)
+- [Eclipse](https://www.eclipse.org/downloads/)
+- [LibreOffice 6.0+](http://www.libreoffice.org/download/download/)
+- [OpenJDK 8](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=openj9)
 
-LibreOffice SDK is not required.
+LibreOffice SDK is *not* required.
 
 To build:
 
